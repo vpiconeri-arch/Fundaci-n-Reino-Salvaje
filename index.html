@@ -1,216 +1,197 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="Fundación Reino Salvaje se dedicada a la protección, rescate y conservación de los leones y su hábitat natural.">
-  <meta name="keywords" content="Reino Salvaje, leones, protección animal, conservación, rescate de leones, vida silvestre">
-  <meta name="author" content="Valentina Piconeri">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Fundación Reino Salvaje se dedica a la protección, rescate y conservación de los leones y su hábitat natural.">
+    <meta name="keywords" content="Reino Salvaje, leones, protección animal, conservación, rescate de leones, vida silvestre">
+    <meta name="author" content="Valentina Piconeri">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-<link rel="stylesheet" href="css/style.css"
-<title>Fundación Reino Salvaje</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Fundación Reino Salvaje</title>
 </head>
+
 <body>
 
-<header class="header-ReinoSalvaje"> <!--Encabezado de mi página,IMPORTANTE!!! Considerar la class para darle estilo en el css-->
-      <div class="logo">
-        <img src="Logo de Fundación Reino Salvaje.png" alt="Logo de la Fundación " class="logo">
-       
-      </div>
-      
-      <nav class="nav">
-        <ul>
-          <li><a href="#inicio" class="nav-button">Inicio</a></li>
-          <li><a href="#quienes-somos" class="nav-button">Nosotros</a></li>
-          <li><a href="#donaciones" class="nav-button">donaciones</a></li>
-          <li><a href="#contacto" class="nav-button">Contacto</a></li>
-        </ul>
-      </nav>
-    
-  </header>
+    <!-- ENCABEZADO DE MI PÁGINA -->
 
-  <main>
-    <section id="inicio" class="hero-Fundacion-Reino-Salvaje">
-      <div class="video-background">
-        <video autoplay="" muted="" loop="" playsinline="">
-          <source src="img/video de leones.mp4" type="video/mp4">
-          Tu navegador no soporta video en HTML5.
-        </video>
-      </div>
+    <header class="header-ReinoSalvaje">
 
-
-      <div class="hero-content">
-        <h2>Bienvenidos</h2>
-        <p>Nuestro objetivo es ayudar a los leones que se encuentran en peligro,
-             apoyar su rehabilitación y promover el cuidado de su hábitat natural.</p>
-
-
-        <div class="hero-buttons">
-        <a href="XXX" class="btn">Dona</a>
-        <a href="XXXX" class="btn">Ver mas</a>
-      </div>
-      </div>
-      
-    </section> <!--Aqui termina todo lo del hero, donde esta mi video y los dos botones-->
-    <!--INICION DE LA SECCIÓN SOBRE NOSOTROS, Nuestra misión, quienes somos, etc-->
-      <section id="quienes-somos" class="quienes-somos">
-      <h2>Quiénes Somos</h2>
-      <div class="content">
-        <p>La fundación Reino Salvaje es una organización dedicada a la protección y conservación de los leones y su hábitat natural.</p>
-      </div>
-    </section>
-
-    <!--inicio de la sección de mi fundacion con los programas y únete a mis proyectos-->
-    <section id="donaciones" class="donaciones">
-      <h2> Ayúdanos a proteger a los leones</h2>
-      <div class="filter-buttons">
-        <button class="filter-btn" data-category="all">Todos</button>
-        <button class="filter-btn" data-category="protección">protección</button>
-        <button class="filter-btn active" data-category="habitat">habitat</button>
-      </div>
-
-      <!--Aquí va la primera card-->
-        <div id="protección-container">
-            <figure class="protección-card" data-gender="protección">
-                <img src="foto1.jpg" alt="Leona llamada Nala , nombre: Nala">
-                <figcaption>
-                 Un hogar para todos: proteger a los leones y conservar su hábitat natural para las futuras generaciones.
-            </figcaption>
-                <div class="card-description">
-                    <p>Nala representa a los leones que necesitan protección. Nuestra fundación busca crear
-                         conciencia sobre el cuidado de esta especie y la importancia de conservar su hábitat natural</p>
-                </div>
-            </figure>
-            <!--SEGUNDA TARGETA PARA EL OTRO PROYECTO-->
-             <figure class="protección-card" data-gender="protección">
-                <img src="foto2.jpg" alt="León mirando">
-                <figcaption>
-                 Nuevas generaciones:  Protejamos la vida silvestre.
-            </figcaption>
-                <div class="card-description">
-                    <p>  Queremos que los leones puedan vivir libres y seguros.
-                         Por eso, buscamos crear conciencia sobre la caza ilegal
-                         y la importancia de proteger esta especie.</p>
-                </div>
-            </figure>
-
-            </figure>
-            <!--TERCERA TARGETA PARA EL OTRO PROYECTO-->
-             <figure class="protección-card" data-gender="protección">
-                <img src="foto3.jpg" alt="Animales de la sabana ">
-                <figcaption>
-                Cada especie cuenta: Un futuro para los leones.
-            </figcaption>
-                <div class="card-description">
-                    <p>  Los leones son una parte importante de la naturaleza.
-                         En Reino Salvaje buscamos protegerlos, cuidar el lugar
-                        donde viven y crear conciencia sobre los peligros que enfrentan.</p>
-                </div>
-            </figure>
-
-            </figure>
-            <!--CUERTA TARGETA PARA EL OTRO PROYECTO-->
-             <figure class="protección-card" data-gender="protección">
-                <img src="foto4.jpg" alt="León adulto recorriend">
-                <figcaption>
-                Huellas para el mañana: Conservemos su hogar natural.
-            </figcaption>
-                <div class="card-description">
-                    <p> La sabana es el hogar de muchos animales.
-                         En Reino Salvaje queremos promover el cuidado del medio
-                         ambiente y proteger los espacios donde viven los leones.</p>
-                </div>
-            </figure>
-         </div>
-
-         <!--La sigientes targetas para habitat-->
-
-         <div id="protección-container">
-            <figure class="protección-card" data-gender="habitat">
-                <img src="foto5.jpg" alt="Leona junto">
-                <figcaption>
-                 Aprender de la naturaleza:  cada león merece un futuro seguro y un lugar donde vivir libremente.
-            </figcaption>
-                <div class="card-description">
-                    <p>>Creemos que cada especie tiene un valor único. Por eso, buscamos inspirar 
-                        a las personas a respetar la vida silvestre y apoyar acciones que ayuden 
-                        a mantener viva la belleza del reino animal</p>
-                </div>
-            </figure>
-
-            <figure class="protección-card" data-gender="habitat">
-                <img src="foto6.jpg" alt="León caminando por la sabana">
-                <figcaption>
-                Un territorio que cuidar:  el comienzo de una vida llena de descubrimientos.
-            </figcaption>
-                <div class="card-description">
-                    <p>>Los cachorros aprenden de su entorno desde pequeños. Un ambiente seguro es 
-                        fundamental para su desarrollo y para el futuro de la especie</p>
-                </div>
-            </figure>
-
-            <figure class="protección-card" data-gender="habitat">
-                <img src="foto9.jpg" alt="Cachorros de león">
-                <figcaption>
-                Leones descansando junto:  la naturaleza necesita de todos sus habitantes.
-            </figcaption>
-                <div class="card-description">
-                    <p>>Los leones cumplen una función importante en los ecosistemas. 
-                        Su conservación contribuye al equilibrio natural y a la diversidad de la vida silvestre</p>
-                </div>
-            </figure>
-
-            <figure class="protección-card" data-gender="habitat">
-                <img src="foto8.jpg" alt="León adulto">
-                <figcaption>
-                Riqueza natural:  conservar hoy para disfrutar la naturaleza en el futuro.
-            </figcaption>
-                <div class="card-description">
-                    <p>>En Reino Salvaje queremos motivar a más personas a conocer y respetar a los animales.
-                         Pequeñas acciones pueden ayudar a crear un futuro mejor para la vida silvestre</p>
-                </div>
-            </figure>
-
-  </main>
-
-  <footer id="contacto-ReinoSalvaje"> 
-    <div class="footer-grid">
-      <div class="contacto">
-        <h3>Contacto</h3>
-        <address>
-          <p>
-            <i class="fa fa-map-marker-alt"></i>
-            <a href="https://maps.app.goo.gl/w8Tdag8ErzMtK4jV9" target="_blank" rel="noreferrer noopener">
-            <span style="color: #ebe12f; font-weight: bold">Ubicación: </span> 06140 Ciudad de México, Méx.
-            </a>
-          </p>
-          <p>
-            <i class="fa fa-phone"></i>
-            <span style="color: #dcd631; font-weight: bold">Teléfono: </span> <a href="tel:+525633219964"> 56 3321 9964</a>
-          </p>
-        </address>
-      </div>
-      
-      <div class="redes-sociales">
-        <h3>Síguenos en redes sociales</h3>
-        <div class="redes-iconos">
-          <a href="https://www.facebook.com" aria-label="Síguenos en Facebook"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.instagram.com/_v.piconeri_?dlrf=MXRlNmc4M3R6dnFseg%3D%3D" aria-label="Síguenos en Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.tiktok.com/@valepf8?_r=1&_t=ZS-9AuDHu6EFPD" aria-label="Síguenos en TikTok"><i class="fab fa-tiktok"></i></a>
+        <div class="logo">
+            <img src="Logo de Fundación Reino Salvaje.png" alt="Logo de la Fundación Reino Salvaje" class="logo">
         </div>
-      </div>
-    </div>
 
-    <div class="footer-bottom">
-      <button onclick="scrollToTop()" class="scroll-to-top-btn" aria-label="Volver al inicio de la página">
-        <i class="fa fa-arrow-up"></i>
-      </button>
+        <nav class="nav">
+            <ul>
+                <li><a href="#inicio" class="nav-button">Inicio</a></li>
+                <li><a href="#quienes-somos" class="nav-button">Nosotros</a></li>
+                <li><a href="#donaciones" class="nav-button">Donaciones</a></li>
+                <li><a href="#contacto" class="nav-button">Contacto</a></li>
+            </ul>
+        </nav>
 
-     <p class="copyright">&copy; Fundación Reino-Salvaje. Todos los derechos reservados.</p>
-    </div>
-  </footer>
+    </header>
+
+
+    <main>
+
+        <!-- SECCIÓN DE INICIO / VIDEO -->
+
+        <section id="inicio" class="hero-Fundacion-Reino-Salvaje">
+
+            <div class="video-background">
+                <video autoplay muted loop playsinline>
+                    <source src="img/video de leones.mp4" type="video/mp4">
+                    Tu navegador no soporta video en HTML5.
+                </video>
+            </div>
+
+            <div class="hero-content">
+
+                <h2>Bienvenidos</h2>
+
+                <p>
+                    Nuestro objetivo es ayudar a los leones que se encuentran en peligro,
+                    apoyar su rehabilitación y promover el cuidado de su hábitat natural.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#donaciones" class="btn">Dona</a>
+                    <a href="#quienes-somos" class="btn">Ver más</a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN SOBRE NOSOTROS -->
+
+        <section id="quienes-somos" class="quienes-somos">
+
+            <h2>Quiénes Somos</h2>
+
+            <div class="content">
+
+                <p>
+                    La Fundación Reino Salvaje es una organización dedicada
+                    a la protección y conservación de los leones y su hábitat natural.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECCIÓN DE DONACIONES Y PROGRAMAS -->
+
+        <section id="donaciones" class="donaciones">
+
+            <h2>Ayúdanos a proteger a los leones</h2>
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn" data-category="all">Todos</button>
+
+                <button class="filter-btn" data-category="protección">Protección</button>
+
+                <button class="filter-btn" data-category="habitat">Hábitat</button>
+
+            </div>
+
+            <div id="protección-container"></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA / CONTACTO -->
+
+    <footer id="contacto">
+
+        <div class="footer-grid">
+
+            <div class="contacto">
+
+                <h3>Contacto</h3>
+
+                <address>
+
+                    <p>
+                        <i class="fa fa-map-marker-alt"></i>
+
+                        <a href="https://maps.app.goo.gl/w8Tdag8ErzMtK4jV9" target="_blank" rel="noreferrer noopener">
+                            <span style="color: #ebe12f; font-weight: bold">Ubicación:</span>
+                            06140 Ciudad de México, Méx.
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="fa fa-phone"></i>
+
+                        <span style="color: #dcd631; font-weight: bold">Teléfono:</span>
+
+                        <a href="tel:+525633219964">56 3321 9964</a>
+                    </p>
+
+                </address>
+
+            </div>
+
+
+            <!-- REDES SOCIALES -->
+
+            <div class="redes-sociales">
+
+                <h3>Síguenos en redes sociales</h3>
+
+                <div class="redes-iconos">
+
+                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer noopener" aria-label="Síguenos en Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/_v.piconeri_?dlrf=MXRlNmc4M3R6dnFseg%3D%3D" target="_blank" rel="noreferrer noopener" aria-label="Síguenos en Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.tiktok.com/@valepf8?_r=1&_t=ZS-9AuDHu6EFPD" target="_blank" rel="noreferrer noopener" aria-label="Síguenos en TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- BOTÓN PARA VOLVER ARRIBA -->
+
+        <div class="footer-bottom">
+
+            <button onclick="scrollToTop()" class="scroll-to-top-btn" aria-label="Volver al inicio de la página">
+                <i class="fa fa-arrow-up"></i>
+            </button>
+
+            <p class="copyright">
+                &copy; Fundación Reino Salvaje. Todos los derechos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ARCHIVO JAVASCRIPT -->
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
