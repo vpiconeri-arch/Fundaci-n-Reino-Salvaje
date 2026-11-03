@@ -305,7 +305,7 @@ main section {
 }
 
 .column img {
-    border: 7px solid #251D82;
+    border: 4px solid #aef478;
     border-radius: 15px;
 }
 
@@ -321,6 +321,23 @@ main section {
     display: table;
 }
 
+/*Aside para las ferias, promociones y eventos*/
+  .campaña {
+  text-align: center;
+  background-color: #fffaef;
+  padding: 50px 20px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  }
+  
+  .campaña h3 {
+  color: #e0a01f;
+  margin-bottom: 40px;
+  }
+  
+  .campaña p {
+  margin-bottom: 10px;
+  }
 
 /* PIE DE PÁGINA (FOOTER) */
 
